@@ -404,7 +404,7 @@ function OB_helper.set_up_leaving_belt(state, row_details, belt, is_underground)
                 name = belt_to_underground(belt_details.belt),
                 position = position,
                 direction = defines.direction.east,
-                type = output
+                type = "output"
             }
         )
     elseif state.fluid then
