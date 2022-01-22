@@ -59,4 +59,3 @@ Date: 2022-01-22
     - Added pipe compatibility for arbitrarily wide miners (such as Space Exploration's big miner)
     - Moved changelog from README.md to changelog.txt
     - Updated README.md
-
