@@ -340,7 +340,8 @@ function OB_stage.place_end_pipes(state)
             if state.last_end_pipe_y then
                 OB_helper.pipe_connect(state, state.last_end_pipe_y + 1, pos.y - 1, end_x, true)
             end
-            OB_helper.pipe_connect(state, pos.x + 2, end_x - 1, pos.y)
+            local width = math.ceil(state.conf.miner_width / 2)
+            OB_helper.pipe_connect(state, pos.x + width, end_x - 1, pos.y)
             OB_helper.place_entity(state, {name = state.conf.pipe_name, position = {x = end_x, y = pos.y}})
             state.last_end_pipe_y = pos.y
         end
