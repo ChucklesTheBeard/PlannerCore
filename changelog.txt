@@ -1,0 +1,62 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2021-01-01
+  Features:
+    - First public version (Factorio version 0.16.1).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2021-01-01
+  Bugfixes:
+    - Fixed bug with other entities only being placed where miners are.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2021-01-01
+  Changes:
+    - Minor updates from OutpostPlanner 1.0.3
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2021-01-01
+  Changes:
+    - Update for 0.17
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2021-01-01
+  Bugfixes:
+    - OutpostPlanner now correctly raises `on_built_entity` event.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2021-01-01
+  Changes:
+    - Update for 0.18
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2021-01-01
+  Bugfixes:
+    Fix script event crash in Factorio version >= 0.18.27
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2021-01-02
+  Changes:
+    - Update for 1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2021-10-08
+  Bugfixes:
+    - Fixed reversed output belts
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2022-01-22
+  Changes:
+    - Added pipe compatibility for arbitrarily wide miners (such as Space Exploration's big miner)
+    - Moved changelog from README.md to changelog.txt
+    - Updated README.md
+
