@@ -266,7 +266,8 @@ function OB_helper.place_miner(state, data)
 end
 
 function OB_helper.pipe_connect_miners(state, x1, x2, y, pos_flip)
-    OB_helper.pipe_connect(state, x1 + 2, x2 - 2, y, pos_flip)
+    local width = math.ceil(state.conf.miner_width / 2)
+    OB_helper.pipe_connect(state, x1 + width, x2 - width, y, pos_flip)
 end
 
 function OB_helper.flip_x_y(pos)

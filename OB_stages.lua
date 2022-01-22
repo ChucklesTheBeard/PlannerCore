@@ -18,7 +18,7 @@ end
 function OB_stage.check_fluid(state)
     state.fluid = false
     for i, name in ipairs(state.ore_names) do
-        if game.entity_prototypes[name].mineable_properties.required_fluid and state.conf.miner_width == 3 then
+        if game.entity_prototypes[name].mineable_properties.required_fluid and state.conf.miner_width > 2 then
             state.fluid = true
             return true
         end
